@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Mochi Recipes</title>
+  <link rel="stylesheet" type="text/css" href="/styles/main.css">
+</head>
+
+<body>
+  <h1>Mochi Factory 🌸</h1>
+
+  <form action="/recipe" method="POST" class="buttons">
+    <button type="submit" value="strawberry" name="choice">🍓</button>
+    <button type="submit" value="chocolate" name="choice">🍫</button>
+    <button type="submit" value="matcha" name="choice">🧉</button>
+  </form>
+  <div id="recipeContainer" class="hidden">
+    <% if (locals.recipe) { %>
+     <h2>
+      <%= recipe.name %>
+     </h2>
+     <h3>Ingredients:</h3>
+     <ul id="ingredientsList">
+      <% recipe.ingredients.dough.forEach(dou => { %>
+        <li>
+          <%= dou.quantity %> of <%= dou.name %>        
+        </li>        
+      <%})%> 
+      <% recipe.ingredients.filling.forEach(fill => { %>
+        <li>
+          <%= fill.quantity %> of <%= fill.name %>        
+        </li>        
+      <%})%> 
+      <li><%= recipe.ingredients.dusting.quantity %> of <%= recipe.ingredients.dusting.name %></li>   
+    </ul>
+
+    <% } else {%>
+      <h2>Pick your favourite mochi flavor 👆</h2>    
+    <% } %>
+
+  </div>
+</body>
+
+</html>

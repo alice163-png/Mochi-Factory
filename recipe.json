@@ -1,0 +1,151 @@
+[
+  {
+    "id": "0001",
+    "type": "mochi",
+    "name": "Strawberry Mochi",
+    "price": 2.99,
+    "ingredients": {
+      "dough": [
+        {
+          "name": "Glutinous Rice Flour",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "Sugar",
+          "quantity": "1/2 cup"
+        },
+        {
+          "name": "Strawberry Juice",
+          "quantity": "1/4 cup"
+        },
+        {
+          "name": "Water",
+          "quantity": "1 cup"
+        }
+      ],
+      "filling": [
+        {
+          "name": "Freeze-dried Strawberries",
+          "quantity": "1/3 cup"
+        },
+        {
+          "name": "White Chocolate Chips",
+          "quantity":"1 cup"
+        },
+        {
+          "name":"Unsalted Butter",
+          "quantity": "5 tablespoons",
+          "preparation": "chopped"
+        },
+        {
+          "name":"Heavy Cream",
+          "quantity": "3 tablespoons"
+        }
+      ],
+      "dusting": {
+        "name": "Powdered Sugar",
+        "quantity": "1/2 cup"
+      }
+    }
+  },
+  {
+    "id": "0002",
+    "type": "mochi",
+    "name": "Chocolate Mochi",
+    "price": 3.49,
+    "ingredients": {
+      "dough": [
+        {
+          "name": "Glutinous Rice Flour",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "Sugar",
+          "quantity": "1/2 cup"
+        },
+        {
+          "name": "Milk Chocolate Chips",
+          "quantity": "1/3 cup"
+        },
+        {
+          "name": "Water",
+          "quantity": "1 and 1/4 cups"
+        }
+      ],
+      "filling": [
+        {
+          "name":"Semisweet Chocolate Chips",
+          "quantity":"1 cup"
+        },
+        {
+          "name": "Heavy Cream",
+          "quantity":"1/2 cup"      
+        },
+        {
+          "name": "Unsalted Butter",
+          "quantity": "1 tablespoon"
+        },
+        {
+          "name": "Salt",
+          "quantity": "1/8 teaspoon"
+        }
+      ],
+      "dusting": {
+        "name": "Unsweetened Cocoa Powder",
+        "quantity": "1/2 cup"
+      }
+    }
+  },
+  {
+    "id": "0003",
+    "type": "mochi",
+    "name": "Matcha Mochi",
+    "price": 4.99,
+    "ingredients": {
+      "dough": [
+        {
+          "name": "Glutinous Rice Flour",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "Sugar",
+          "quantity": "1/2 cup"
+        },
+        {
+          "name":"Matcha Powder",
+          "quantity": "1 teaspoon",
+          "preparation": "sifted"
+        },
+        {
+          "name": "Water",
+          "quantity": "1 and 1/4 cups"
+        }
+      ],
+      "filling": [
+        {
+          "name": "White Chocolate Chips",
+          "quantity": "1 cup"
+        },
+        {
+          "name":"Matcha Powder",
+          "quantity": "1 and 1/2 teaspoons",
+          "preparation": "sifted"
+        },
+        {
+          "name": "Unsalted Butter",
+          "quantity": "5 tablespoons",
+          "preparation": "chopped"
+        },
+        {
+          "name": "Heavy Cream",
+          "quantity": "3 tablespoons"
+        }
+      ],
+      "dusting": {
+        "name": "Matcha Powder",
+        "quantity": "1 and 1/2 tablespoons",
+        "preparation": "sifted"
+      }
+    }
+  }
+]
